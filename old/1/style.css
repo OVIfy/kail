@@ -1,0 +1,194 @@
+:root{
+    --primary-color: #4B5E79;
+    --primary-color-dark: #292D3D;
+    --secondary-color: gray;
+
+    --font-size-1: 12px;
+    --font-size-2: 13px;
+    --font-size-3: 15px;
+    --font-size-4: 16px;
+    --font-size-5: 24px;
+    --font-size-6: 32px;
+    --font-size-7: 50px;
+    --font-size-8: 168.47px;
+
+    /* --font-size-8: 168.47px; */
+
+
+    --bold: 500;
+    --bold-extra: 900;
+
+    --font-1: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,body{
+    padding: 0px;
+    margin: 0px;
+    font-family: var(--font-1);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* ------------------------------------------------------------------ utilities -------------------------------------------------------------------- */
+                                                                        /* padding */
+.padd-t-24{
+    padding-top: 24px;
+}  
+
+.padd-t-48{
+    padding-top: 48px;
+}     
+
+.padd-t-64{
+    padding-top: 64px;
+}  
+
+.nav-card{
+    margin-top: 32px;
+}
+.nav-heading-text{
+    font-size: var(--font-size-6);
+    font-weight: var(--bold-extra);
+    color: var(--primary-color-dark);
+
+}
+
+.nav-body-text{
+    font-size: var(--font-size-4);
+    font-style: italic;
+    color: var(--primary-color);
+}
+
+.up-arrow{
+    position: absolute;
+    right: 90px;
+    top: 90px;
+    text-align: right;
+}
+                                                                /* hero */
+.hero-cont{
+    padding: 32px 40px;
+}                                                                
+.hero-section{
+    text-align: center;
+}
+.hero-heading-text{
+    font-size: var(--font-size-8);
+    color: var(--primary-color);
+    font-weight: var(--bold);
+}
+
+.hero-sub-heading-text{
+    font-size: var(--font-size-7);
+    color: var(--primary-color);
+    font-weight: var(--bold);
+    padding-top: 64px;
+}
+
+.hero-body-text{
+    color: var(--primary-color);
+}
+                                                                    /* section */
+
+.section-cont{
+    padding: 138px 144px;
+}
+
+.section-text-1{
+    font-size: var(--font-size-5);
+}                                                                    
+    
+.section-text-2{
+    font-size: var(--font-size-2);
+    color: var(--secondary-color);
+ 
+}
+
+.section-text-3{
+    font-size: var(--font-size-7);
+    color: var(--primary-color-dark);
+    font-weight: var(--bold-extra);
+    display: inline-block;
+    max-width: 800px;
+}
+
+.section-text-4{
+    font-size: var(--font-size-3);
+}
+/* ------------------------------------------------------------------ components -------------------------------------------------------------------- */
+                                                                            /* nav */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav .nav-right-items{
+    display: flex;
+    gap: 64px;
+    align-items: center;
+}
+
+.nav .nav-left-items{
+    display: flex;
+    gap: 8px;
+}
+
+.nav ul{
+    display: flex;
+    gap: 64px;
+}
+
+.nav ul li{
+    display: flex;
+}
+
+.nav .nav-text{
+    font-weight: var(--bold);
+    color: var(--primary-color);
+}
+
+                                                                /* button */
+.btn{
+    padding: 16px;
+    background-color: var(--primary-color-dark);
+    border-radius: 24px;
+    color: white;
+}                                                                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.profile{
+    width: 97px;
+    height: 97px;
+    border-radius: 100%;
+    background-color: var(--secondary-color);
+}
